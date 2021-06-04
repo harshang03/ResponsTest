@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Lucida Console", "Courier New", monospace;    
+}
+
+@media only screen and (min-width:601px) {
+    body{
+        margin: 0%;
+    }
+    .mainLanding{
+        font-weight: 600;
+        background-image: url("media/landingBackground-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0%;
+        margin-right: 0%;
+        min-height:640px ;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .landingMsg{
+        margin-top: 2%;
+    }
+    .socialLinks>div:hover{
+        transition: transform .3s;
+        transform: scale(1.5);
+    }
+    .ab{
+        
+        height: 400px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;        
+        
+    }
+    .que{
+        font-size: 5vh;
+        text-align: center; 
+        justify-content: center;
+        width: 100%;
+    }
+    .ans{
+        padding: 10%;
+        font-size: 4.5vh;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px){
+    /*Small smartphones [325px -> 425px]*/
+    .mainLanding{
+        height: 460px;
+        padding-top: 50%;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.850em;
+        background-color: greenyellow;
+        background-image: url("");
+    }
+    .landingMsg{
+        margin: 4%;
+    }
+    .landingImg{ 
+        margin-bottom: 2%;
+        justify-content: center;
+        display: flex;
+    }
+    .scDown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ab{
+        padding:10%;
+        font-size: 3vh;
+    }
+    .que{
+        text-align: center; 
+        justify-content: center;
+    }
+    .ans{
+        margin: 1vh;
+        text-align: center;
+    }
+}
+nav{
+    position:fixed;
+}
+.landingMsg{
+    letter-spacing: -1px;
+    font-size: 1.5em;
+}
+.blink{
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.landingImg>img{
+    border-radius: 50%;
+    height: 150px;
+    
+}
+.scDownGif{
+    margin-top: 10vh;
+    height: 100px;
+}
+
+footer{
+    padding: 1%;
+    background-color: #E0E0E0;
+    border: 5px solid #1c4969;
+}
+footer:hover{
+    color: purple;
+}
+footer>div{
+    display: flex;
+    justify-content: center;
+}
+.socialLinks>div>a>img{
+    height: 35px;
+}
+.socialLinks>div{
+    display: inline-flex;
+    margin: 1%;
+}
+Hr{
+    background-color: black;
+    height: 1px;
+    border: none;
+    width: 50%; 
+    margin: auto;
+}
+.cpyRights{
+    margin-top: 1%;
+}
+
