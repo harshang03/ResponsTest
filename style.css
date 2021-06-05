@@ -1,12 +1,14 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: "Lucida Console", "Courier New", monospace;    
+    font-family: "Lucida Console", "Courier New", monospace;   
+    scroll-behavior: smooth; 
 }
 
 @media only screen and (min-width:601px) {
     body{
         margin: 0%;
+        
     }
     .mainLanding{
         font-weight: 600;
@@ -28,23 +30,96 @@
         transition: transform .3s;
         transform: scale(1.5);
     }
-    .ab{
+    .ab1{
         
-        height: 400px;
-        display: inline-flex;
+        height: 300px;
+        display: flex;
         justify-content: center;
         align-items: center;        
-        
     }
-    .que{
-        font-size: 5vh;
+    .que1{
+        font-size: 2em;
         text-align: center; 
         justify-content: center;
-        width: 100%;
+        width: 200vh;
+        padding-bottom: 2%;
+        margin-left: 40px ;
     }
-    .ans{
+    .ans1{
+        font-size: 1.5em;
+        justify-content: center;
+        text-align: center;
+        padding-right: 5%;
+    }
+    .ab2{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    .que2{
+        font-size: 2em;
+        text-align: center; 
+        justify-content: center;
+        width: 200vh;
+    }
+    .ans2{
+        font-size: 1.5em;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10%;
+    }
+    .ab3{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    .que3{
+        font-size: 2em;
+        text-align: center; 
+        justify-content: center;
+        width: 150vh;
+        
+    }
+    .ans3{
+        font-size: 1.5em;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10%;
+    }
+    .ab4{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+    }
+    .que4{
+        font-size: 2em;
+        text-align: center; 
+        margin-right: 30%;
+    }
+    .ans4{
+        font-size: 1.5em;
+        justify-content: center;
+    }
+    
+    .ab5{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    .que5{
+        margin-left: 5%;
+        font-size: 2em;
+        text-align: center; 
+        justify-content: center;
+        width: 100vh;
+    }
+    .ans5{
         padding: 10%;
-        font-size: 4.5vh;
+        font-size: 1.5em;
         justify-content: center;
         text-align: center;
     }
