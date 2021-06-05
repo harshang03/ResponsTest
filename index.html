@@ -12,10 +12,15 @@
 </head>
 
 <body>
-    <!--<nav class="nav">
-        <a href="#">Home</a><a href="#aboutMe">About me</a><a href="#contactMe">Contact Me </a>
-    </nav>-->
-    <div class="mainLanding">
+    <div class="outerNavbar">
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="mainLanding" id="home">
         <div class="landingImg">
             <img src="media/ProfilePhoto.jpg" alt="photo">
         </div>
@@ -25,19 +30,21 @@
         <div><a href="#aboutMe" class="scDown"><img class="scDownGif" src="media/scroll-down-arrow.gif"
                     alt="scroll down"></a></div>
     </div>
+
     <!-- section 2 -->
     <div class="section2" id="aboutMe">
-        <div class="ab1">
+        <div class="ab1" id="s2InnerMAinDiv">
             <div class="que1">
                 <b>Who am I?</b>
             </div>
             <div class="ans1">
-                I'm a <u>Rajyapal awardee</u><br>(The Bharat Scouts and Guides) and an enthusiastic student, who loves to code.
-                Also eager to learn new technologies!
+                I'm a <u>Rajyapal awardee</u><br>(The Bharat Scouts and Guides) and an <u>enthusiastic student</u>, who
+                loves to code.
+                <br>And Also eager to learn new technologies!
             </div>
         </div>
         <hr>
-        <div class="ab2">
+        <div class="ab2" id="s2InnerMAinDiv">
             <div class="que2">
                 <b>Education</b>
             </div>
@@ -47,18 +54,19 @@
             </div>
         </div>
         <hr>
-        <div class="ab3">
+        <div class="ab3" id="s2InnerMAinDiv">
             <div class="que3">
                 <b>Achievements</b>
             </div>
-            <div class="ans3">
+            <div class="ans3" id="s2InnerMAinDiv">
                 Rajyapal Award,<br>The Bharat Scouts and Guides(2016)
-                <br><hr style="margin-top: 1%;margin-bottom: 1%;">
+                <br>
+                <hr style="margin-top: 1%;margin-bottom: 1%;">
                 2<sup>nd</sup> rank in smart city Hackathon Rajkot,SSIP(2020)
             </div>
         </div>
         <hr>
-        <div class="ab4">
+        <div class="ab4" id="s2InnerMAinDiv">
             <div class="que4">
                 <b>Skills</b>
             </div>
@@ -67,7 +75,7 @@
             </div>
         </div>
         <hr>
-        <div class="ab5">
+        <div class="ab5" id="s2InnerMAinDiv">
             <div class="que5">
                 <b>Known Technologies</b>
             </div>
@@ -75,14 +83,13 @@
                 HTML, CSS, PHP, MySql, C, C++, Java, Python, Android
             </div>
         </div>
+        <hr>
     </div>
-
-
     <footer>
         <div>
             <h2>~Contcat Me~</h2>
         </div>
-        <div class="socialLinks" id="contactMe">
+        <div class="socialLinks" id="contact">
             <div>
                 <a href="mailto:a.harshang@gmail.com" target="_blank">
                     <img src="media/Social media/gmail.svg" alt="gmail">
