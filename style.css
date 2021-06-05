@@ -143,11 +143,12 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         font-size: 0.850em;
-        background-color: greenyellow;
+
         background-image: url("media/landingBackground-2.png");
     }
     .landingMsg{
-        margin: 4%;
+        margin-top: 5%;
+        text-align: center;
     }
     .landingImg{ 
         margin-bottom: 2%;
