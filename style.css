@@ -200,7 +200,7 @@ body{
     }
     .ans1{
         font-size: 1.3em;
-        margin: 1vh;
+        margin-top: 2vh;
         text-align: center;
     }
     .ab2{
@@ -213,7 +213,7 @@ body{
     }
     .ans2{
         font-size: 1.3em;
-        margin-top: 3vh;
+        margin-top: 2vh;
         text-align: center;
     }
     .ab3{
@@ -226,7 +226,7 @@ body{
     }
     .ans3{
         font-size: 1.3em;
-        margin-top: 3vh;
+        margin-top: 2vh;
         text-align: center;
     }
     .ab4{
@@ -239,21 +239,20 @@ body{
     }
     .ans4{
         font-size: 1.3em;
-        margin-top: 3vh;
+        margin-top: 2vh;
         text-align: center;
     }
     .ab5{
         padding:10%;
-        font-size: 3vh;
     }
     .que5{
-        font-size: 1.7em;
+        font-size: 1.8em;
         text-align: center; 
         justify-content: center; 
     }
     .ans5{
-        font-size: 1em;
-        margin-top: 3vh;
+        font-size: 1.2em;
+        margin-top: 2vh;
         text-align: center;
     }
     .cMain{
@@ -280,8 +279,9 @@ body{
         flex-direction: column;
         align-items: center;
     }
-
-
+    #r1{
+        margin-bottom: 2%;
+    }
 }
 .outerNavbar{
     display: flex;
@@ -342,7 +342,7 @@ footer>div{
 }
 .socialLinks>div{
     display: inline-flex;
-    margin: 1%;
+    margin: 2% 2%;
 }
 Hr{
     background-color: black;
