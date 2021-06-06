@@ -45,6 +45,7 @@ body{
         justify-content: center;
         text-align: center;
         padding-right: 5%;
+        line-height: 30px;
     }
     .ab2{
         height: 300px;
@@ -164,7 +165,6 @@ body{
     }
 }
 @media only screen and (max-width: 480px){
-    /*Small smartphones [325px -> 425px]*/
 
     .mainLanding{
         height: 540px;
