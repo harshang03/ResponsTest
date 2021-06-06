@@ -163,7 +163,7 @@ body{
         transform: scale(1.5);
     }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 480px){
     /*Small smartphones [325px -> 425px]*/
 
     .mainLanding{
