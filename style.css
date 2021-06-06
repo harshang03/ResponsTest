@@ -8,7 +8,7 @@ body{
     margin: 0%;
     padding: 0%;
 }
-@media only screen and (min-width:601px) {
+@media only screen and (min-width:481px) {
     .mainLanding{
         font-weight: 600;
         background-image: url("media/landingBackground-2.png");
