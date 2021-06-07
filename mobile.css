@@ -1,0 +1,118 @@
+.mainLanding{
+    height: 540px;
+    padding-top: 50%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    background-image: url("media/mobile background.jpg");
+}
+.landingMsg{
+    margin-top: 5%;
+    text-align: center;
+}
+.landingImg{ 
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    filter: drop-shadow(0px 0px 30px  black);
+}
+.scDown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ab1{
+    padding:10%;
+}
+.que1{
+    font-size: 1.8em;
+    text-align: center; 
+    justify-content: center;
+}
+.ans1{
+    font-size: 1.3em;
+    margin-top: 2vh;
+    text-align: center;
+    line-height: 25px;
+}
+.ab2{
+    padding:10%;
+}
+.que2{
+    font-size: 1.8em;
+    text-align: center; 
+    justify-content: center; 
+}
+.ans2{
+    font-size: 1.3em;
+    margin-top: 2vh;
+    text-align: center;
+}
+.ab3{
+    padding:10%;
+}
+.que3{
+    font-size: 1.8em;
+    text-align: center; 
+    justify-content: center; 
+}
+.ans3{
+    font-size: 1.3em;
+    margin-top: 2vh;
+    text-align: center;
+}
+.ab4{
+    padding:10%;
+}
+.que4{
+    font-size: 1.8em;
+    text-align: center; 
+    justify-content: center; 
+}
+.ans4{
+    font-size: 1.3em;
+    margin-top: 2vh;
+    text-align: center;
+}
+.ab5{
+    padding:10%;
+}
+.que5{
+    font-size: 1.8em;
+    text-align: center; 
+    justify-content: center; 
+}
+.ans5{
+    font-size: 1.2em;
+    margin-top: 2vh;
+    text-align: center;
+}
+.cMain{
+    padding-top: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.r1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c1{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c2{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#r1{
+    margin-bottom: 2%;
+}
