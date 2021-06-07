@@ -9,8 +9,8 @@ body{
     padding: 0%;
 }
 .outerNavbar{
-    display: flex;
     position: fixed;
+    display: flex;
     justify-content: center;
     width: 100%;
     background-color: #397686;
@@ -43,10 +43,9 @@ body{
         opacity: 0;
     }
 }
-.landingImg>img{
+.landingImgDiv>img{
     border-radius: 50%;
-    height: 150px;
-    
+    height: 150px;    
 }
 .scDownGif{
     margin-top: 10vh;
@@ -79,4 +78,7 @@ Hr{
 }
 .cpyRights{
     margin-top: 1%;
+}
+u{
+    color: #3A7686;
 }
